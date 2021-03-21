@@ -1,0 +1,195 @@
+
+  @media (min-width: 480px) and (max-width: 767px) {
+    
+    .a{
+      width: 480px;
+      height: 75px;
+      background-color: rgb(14, 7, 20);
+    }
+  
+    
+  
+    .b{
+  
+      width: 480px;
+      height: 150px;
+      background-color: rgb(52, 56, 56);
+  
+    }
+  
+    .cd{
+  
+      width: 480px;
+      height: 125px;
+    }
+  
+  
+    #c{
+      background-color: rgb(68, 73, 73);
+    }
+  
+    #d{
+      background-color: rgb(109, 91, 55);
+    }
+  
+    .efgh{
+  
+      width: 240px;
+      height: 250px;
+      
+  
+    }
+  
+    #efgh{
+      width: 480px;
+      height: 500px;
+      
+    }
+  
+    #e{
+  
+      background-color: grey;
+      float: left;
+  
+    }
+  
+    #f{
+  
+      background-color: rgb(128, 95, 52);
+      float: right;
+  
+    }
+  
+    #g{
+  
+      background-color: rgb(95, 124, 95);
+      float: left;
+    }
+  
+    #h{
+  
+      background-color: rgb(24, 30, 46);
+      float: right;
+  
+    }
+  
+    .i{
+  
+      width: 480px;
+      height: 80px;
+      background-color: rgb(204, 154, 148);
+  
+    }
+  }
+  
+  
+  
+  @media (min-width: 768px) and (max-width: 960px){
+  
+  
+  
+    .a{
+      width: 960px;
+      height: 100px;
+      background-color: rgb(211, 180, 240);
+    }
+  
+    
+  
+    .b{
+  
+      width: 200px;
+      height: 600px;
+      background-color: rgb(48, 87, 87);
+      float: left;
+  
+    }
+  
+    .cd{
+  
+      width: 380px;
+      height: 200px;
+      margin-left: 0px;
+    }
+    #cd{
+  
+    width: 760px;
+    height: 200px;
+    
+    }
+  
+  
+    #c{
+      background-color: rgb(126, 172, 172);
+      float: left;
+    }
+  
+    #d{
+      background-color: darkgoldenrod;
+      float: right;
+    }
+  
+    .efgh{
+  
+      
+      width: 190px;
+      height: 250px;
+      
+  
+    }
+  
+    #efgh{
+      width: 760px;
+      height: 250px;
+      
+    }
+  
+    #e{
+  
+      background-color: rgb(59, 50, 50);
+      float: left;
+  
+    }
+  
+    #f{
+  
+      background-color: rgb(194, 162, 121);
+      float: right;
+  
+    }
+  
+    #g{
+  
+      background-color: rgb(54, 65, 54);
+      float: left;
+    }
+  
+    #h{
+  
+      background-color: rgb(63, 48, 75);
+      float: right;
+  
+    }
+  
+    .i{
+  
+      width: 760px;
+      height: 150px;
+      background-color: rgb(147, 148, 89);
+  
+    }
+  
+    .bcd{
+  
+  width: 960px;
+  height: 600px;
+  
+    }
+  
+  
+  
+  
+  
+  
+  
+  }

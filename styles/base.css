@@ -1,0 +1,28 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    overflow:auto;
+    margin: auto;
+    
+  }
+  
+  div{
+    overflow: auto;
+    position: relative;
+  }
+
+  h1{
+    
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    color: ghostwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+
+

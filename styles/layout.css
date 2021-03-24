@@ -1,10 +1,20 @@
 
   @media (min-width: 480px) and (max-width: 767px) {
     
+body{
+  display: grid;
+  grid-template-columns: auto 20% 40%  auto;
+  grid-template-rows: 2fr auto 2fr auto
+};
+
     .a{
       width: 480px;
       height: 75px;
       background-color: rgb(14, 7, 20);
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 3;
     }
   
     
@@ -14,6 +24,10 @@
       width: 480px;
       height: 150px;
       background-color: rgb(52, 56, 56);
+      grid-column-start: 3;
+      grid-column-end: 5;
+      grid-row-start: 3;
+      grid-row-end: 4;
   
     }
   
@@ -26,10 +40,18 @@
   
     #c{
       background-color: rgb(68, 73, 73);
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 4;
+      grid-row-end: 5;
     }
   
     #d{
       background-color: rgb(109, 91, 55);
+      grid-column-start: 5;
+      grid-column-end: 7;
+      grid-row-start: 5;
+      grid-row-end: 7;
     }
   
     .efgh{
@@ -50,6 +72,10 @@
   
       background-color: grey;
       float: left;
+      grid-column-start: 8;
+      grid-column-end: 10;
+      grid-row-start: 7;
+      grid-row-end: 8;
   
     }
   
@@ -57,6 +83,10 @@
   
       background-color: rgb(128, 95, 52);
       float: right;
+      grid-column-start: 9;
+      grid-column-end: 11;
+      grid-row-start: 9;
+      grid-row-end: 10;
   
     }
   
@@ -64,12 +94,20 @@
   
       background-color: rgb(95, 124, 95);
       float: left;
+      grid-column-start: 11;
+      grid-column-end: 12;
+      grid-row-start: 10;
+      grid-row-end: 12;
     }
   
     #h{
   
       background-color: rgb(24, 30, 46);
       float: right;
+      grid-column-start: 13;
+      grid-column-end: 16;
+      grid-row-start: 12;
+      grid-row-end: 14;
   
     }
   
@@ -78,6 +116,10 @@
       width: 480px;
       height: 80px;
       background-color: rgb(204, 154, 148);
+      grid-column-start: 18;
+      grid-column-end: 21;
+      grid-row-start: 15;
+      grid-row-end: 17;
   
     }
   }
@@ -86,13 +128,19 @@
   
   @media (min-width: 768px) and (max-width: 960px){
   
-  
+  body{
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: 200px 250px ;
+  }
   
     .a{
       width: 960px;
       height: 100px;
       background-color: rgb(211, 180, 240);
-    }
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 3;    }
   
     
   
@@ -102,6 +150,10 @@
       height: 600px;
       background-color: rgb(48, 87, 87);
       float: left;
+      grid-column-start: 2;
+      grid-column-end: 5;
+      grid-row-start: 3;
+      grid-row-end: 4;
   
     }
   
@@ -110,6 +162,7 @@
       width: 380px;
       height: 200px;
       margin-left: 0px;
+      
     }
     #cd{
   
@@ -122,11 +175,19 @@
     #c{
       background-color: rgb(126, 172, 172);
       float: left;
+      grid-column-start: 2;
+      grid-column-end: 4;
+      grid-row-start: 5;
+      grid-row-end: 6;
     }
   
     #d{
       background-color: darkgoldenrod;
       float: right;
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 7;
+      grid-row-end: 8;
     }
   
     .efgh{
@@ -148,6 +209,10 @@
   
       background-color: rgb(59, 50, 50);
       float: left;
+      grid-column-start: 3;
+      grid-column-end: 5;
+      grid-row-start: 8;
+      grid-row-end: 9;
   
     }
   
@@ -155,6 +220,10 @@
   
       background-color: rgb(194, 162, 121);
       float: right;
+      grid-column-start: 5;
+      grid-column-end: 6;
+      grid-row-start: 9;
+      grid-row-end: 11;
   
     }
   
@@ -162,12 +231,20 @@
   
       background-color: rgb(54, 65, 54);
       float: left;
+      grid-column-start: 7;
+      grid-column-end: 9;
+      grid-row-start: 10;
+      grid-row-end: 11;
     }
   
     #h{
   
       background-color: rgb(63, 48, 75);
       float: right;
+      grid-column-start: 10;
+      grid-column-end: 11;
+      grid-row-start: 12;
+      grid-row-end: 13;
   
     }
   
@@ -176,6 +253,10 @@
       width: 760px;
       height: 150px;
       background-color: rgb(147, 148, 89);
+      grid-column-start: 12;
+      grid-column-end: 13;
+      grid-row-start: 14;
+      grid-row-end: 15;
   
     }
   
